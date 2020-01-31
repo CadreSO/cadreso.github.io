@@ -5,22 +5,28 @@
   <meta charset="utf-8">
   <title>Projects</title>
   <link rel="stylesheet" type="text/css" href="css/main.css">
-  <script src="main.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="javascript/main.js"></script>
+  <script src="javascript/nav.js"></script>
 </head>
 
-<body>
+<body onresize="displayNav()">
   <!-- insert cadre logo here -->
   <img src="" < />
-  <div class="regular-navbar">
-    <div class="navbar">
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a class="active" href="project.html">Projects</a></li>
-        <li><a href="tutorial.html">Tutorials</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </div>
-  </div>
+  <header class="regular-navbar">
+      <div id="navBar" class="navbar">
+          <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a class="active" href="project.html">Projects</a></li>
+              <li><a href="tutorial.html">Tutorials</a></li>
+              <li><a href="contact.html">Contact</a></li>
+          </ul>
+      </div>
+  </header>
+
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+  </a>
 
   <div class="title" id="projects">
     <h1>PROJECTS</h1>
