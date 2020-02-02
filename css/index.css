@@ -13,7 +13,7 @@ body {
 
 #cadreImages
 {
-    /* visibility: hidden; */
+    display: none;
 }
 
 
@@ -29,4 +29,12 @@ body {
     opacity: .6;
     transition: .3s;
     outline-color: #fff;
+}
+
+button a {
+    text-decoration: none;
+}
+
+#button:hover {
+    opacity: .9;
 }

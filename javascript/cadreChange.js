@@ -1,5 +1,5 @@
    var index = 0;
-   var x  = document.getElementById("cadreImages");
+   var int = 0;
    function changeBanner() {
        [].forEach.call(
            document.images,
@@ -8,11 +8,20 @@
            }
        );
        index = (index + 1) % document.images.length;
-       if (index == 0)
-       {
-          x.style.visibility = "visible";
-       }
+   }
+
+   function visibleCadre()
+   {
+       var x = document.getElementById("cadreImages");
+     
+
+
+            x.style.display = "block";
+
+
+
    }
    window.onload = function() {
        setInterval(changeBanner, 1000)
+       setInterval(visibleCadre, 1000)
    };
