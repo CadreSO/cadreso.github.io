@@ -154,18 +154,19 @@ button a {
     left: 0px;
     height: 100%;
     width: 100%;
-    opacity: 0%;
+    opacity: 0;
+    -webkit-opacity: 0;
     transition: .5s ease;
-    -webkit-transition: all .5s ease;
-    -moz-transition: all .5s ease;
-    -ms-transition: all .5s ease;
-    -o-transition: all .5s ease;
-    background-color: #008CBA;
+    -webkit-transition:  .5s ease;
+    -moz-transition:  .5s ease;
+    -ms-transition:  .5s ease;
+    -o-transition:  .5s ease;
+    background-color: #ff0000;
     border-radius: 50%;
 }
 
 #officer:hover #officerOverlay {
-    opacity: 70%;
+    opacity: .7;
 }
 
 .titles {
