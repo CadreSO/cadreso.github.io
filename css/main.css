@@ -171,6 +171,7 @@ button a {
 
 .titles {
     margin-top: 30%;
+    font-size: 1vw;
 }
 
 .mySlides {
@@ -186,6 +187,15 @@ button a {
 {
     display: block;
 }
+
+/* @media only screen and (max-width:900px)
+{
+    .titles {
+        font-size: .5em;
+    }
+
+} */
+
 
 @media only screen and (max-width:650px) {
     #navBar {
