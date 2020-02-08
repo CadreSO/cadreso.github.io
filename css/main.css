@@ -21,15 +21,13 @@
 
 html {
     height: 100%;
-    max-width: 1280px;
-    /* padding-right: 10%;
-    padding-left: 10%; */
-    font-family: "Tahoma", sans-serif;
+    font-family: "AvenirNextLTProRegular", sans-serif;
 }
 
 body {
     width: 100%;
     margin: 0px;
+    font-size: 2vw;
 }
 
 h1 {
@@ -227,7 +225,12 @@ button a {
     display: block;
 }
 
-@media only screen and (max-width:650px) {
+@media (max-width:1000px) {
+
+    body {
+        font-size: 4vw;
+    }
+
     #navBar {
         /* margin-top: 100px; */
         display: none;

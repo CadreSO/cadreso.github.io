@@ -4,7 +4,7 @@ window.onscroll = function() {scrollFunction()};
     var w = window.outerWidth;
 function scrollFunction() {
 
-    if (w >= 700)
+    if (w >= 1000)
     {
         if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
         document.getElementById("navBar").style.top = "0";
