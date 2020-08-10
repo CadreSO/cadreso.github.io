@@ -22,10 +22,12 @@
 html {
     height: 100%;
     font-family: "AvenirNextLTProRegular", sans-serif;
+    overflow-x: hidden;
 }
 
 body {
     width: 100%;
+        height: 100%;
     margin: 0px;
     font-size: 2vw;
 }
@@ -50,6 +52,7 @@ h1 {
 .title h1 {
     color: #000;
     margin: 10px 0px;
+    text-align: center;
 }
 
 #button {
@@ -96,7 +99,7 @@ button a {
     background-color: #999999;
     position: fixed;
     /* Make it stick/fixed */
-    top: -50px;
+    top: -60px;
     /* Hide the navbar 50 px outside of the top view */
     left: 0px;
     transition: top 0.3s;
@@ -129,7 +132,8 @@ button a {
 }
 
 .mainSection {
-    height: 100%;
+    width: 100%;
+    height: 90%;
 }
 
 .section1 {
@@ -144,18 +148,23 @@ button a {
     padding: 20px;
 }
 
+.img#projects{
+    height: 100vh;
+    overflow-y: scroll;
+}
+
 .img#projects img {
     width: 100%;
 }
 
-.section1#contact {
-    padding-top: 30px;
+.section1 #contact {
     float: left;
 }
 
-.section2#contact {
-    padding-top: 30px;
+.section2 {
     float: left;
+    width: 100%;
+    height: 100%;
 }
 
 .icon {
@@ -164,6 +173,7 @@ button a {
 }
 
 #officer {
+    /* 5 officers = 100%/5*/
     width: 20%;
     text-align: center;
     float: left;
@@ -171,8 +181,14 @@ button a {
     /* clear: both; */
 }
 
+#eventTitle
+{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
 #info {
-    /* clear: both; */
+    padding-left: 40px;
 }
 
 #officerImg {
@@ -206,29 +222,30 @@ button a {
     margin-top: 30%;
     font-size: 1.5vw;
 }
-
+/* individual pictures in slideshow */
 .mySlides {
     display: none;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
 }
 
 #slideShow {
     position: relative;
+    height: 100vh;
+    width: 100vw;
     top: 0px;
-    /* width: 50vw;
-    height: 100vh; */
+    overflow: hidden;
 }
 
-/* makes sure at least one image is showing on load */
+/* makes sure at least one image is showing on load in the slide show*/
 #slide0 {
     display: block;
 }
 
-@media (max-width:1000px) {
+@media (max-width:700px) {
 
     body {
         font-size: 4vw;
+        padding-top: 0px;
     }
 
     #navBar {
@@ -266,7 +283,7 @@ button a {
     }
 
     .titles {
-        font-size: 2em;
+        font-size: 5vw;
     }
 
     #officer {
@@ -278,4 +295,23 @@ button a {
         position: relative;
         /* clear: both; */
     }
+    #officerOverlay {
+        opacity: .7;
+    }
+
+    .mySlides {
+        display: none;
+        height: 100%;
+        width: auto;
+    }
+
+    #slideShow {
+        height: 100vh;
+        width: auto;
+    }
+
+    #slide0 {
+        display: block;
+    }
+
 }

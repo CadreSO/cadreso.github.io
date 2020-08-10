@@ -17,7 +17,7 @@ function slideShow() {
     }
 
     setTimeout(slideShow, 5000);
-    // Change image every 2 seconds
+    // Change image every NUMBER/1000 seconds
 }
 
 slideShow();
