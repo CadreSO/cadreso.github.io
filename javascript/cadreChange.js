@@ -13,13 +13,7 @@
    function visibleCadre()
    {
        var x = document.getElementById("cadreImages");
-     
-
-
             x.style.display = "block";
-
-
-
    }
    window.onload = function() {
        setInterval(changeBanner, 1000)

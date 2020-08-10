@@ -9,7 +9,7 @@ window.onscroll = function() {
 
 function scrollFunction() {
     //if the screen width (w) is wider than this number,
-    if (w > 700) {
+    if (w > 1000) {
         if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
             document.getElementById("navBar").style.top = "0";
         } else {
