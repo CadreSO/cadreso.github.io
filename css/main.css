@@ -225,7 +225,7 @@ button a {
 /* individual pictures in slideshow */
 .mySlides {
     display: none;
-    height: 100%;
+    width: 100%;
 }
 
 #slideShow {
