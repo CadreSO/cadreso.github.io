@@ -4,7 +4,7 @@
 var w = window.outerWidth;
 
 window.onscroll = function() {
-    scrollFunction()
+    //scrollFunction()
 };
 
 function scrollFunction() {

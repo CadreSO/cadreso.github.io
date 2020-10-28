@@ -3,9 +3,11 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Tutorials</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Events</title>
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <script src="javascript/main.js"></script>
     <script src="javascript/nav.js"></script>
     <script src="javascript/navShow.js"></script>
@@ -14,7 +16,8 @@
 <body onresize="displayNav()">
     <!-- insert cadre logo here -->
     <div id="navBar" class="navbar">
-        <a href="index.html">Home</a>
+        <a href="index.html"><img src="images/Cs/offical_C_2019.png"></a>
+        <a href="main.html">Home</a>
         <a href="project.html">Projects</a>
         <a class="active" href="events.html">Events</a>
         <a href="contact.html">Contact</a>
@@ -31,19 +34,17 @@
 
     <div class="mainSection" id="mainSection">
         <div class="section1" id="events">
-            <h2>CURRENT</h2>
+            <h2>UPCOMING EVENT</h2>
             <div id="info">
-                <h4 id = "eventTitle">Happy Quarantine 8/10/20 - TBA</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent libero ligula, laoreet eu lectus pretium, tristique finibus quam. Curabitur dui odio, pellentesque quis rutrum a, dictum at nulla. Pellentesque rhoncus est eu
-                    lectus
-                    tincidunt pretium. Mauris sit amet dolor non nunc convallis venenatis ut ut lorem. In pretium magna et augue fringilla, vitae lobortis diam convallis. Fusce tempus, magna eget gravida fermentum, tortor nunc sagittis purus, non
-                    eleifend
-                    magna eros at neque. Duis ut maximus ex. Ut eget ultricies augue. Integer et lectus efficitur nunc pellentesque porta eget sed justo. Pellentesque feugiat sed eros id consectetur. Morbi quam ante, luctus non ullamcorper at,
-                    hendrerit
-                    et neque.
+                <h4 id = "eventTitle">BFA Workshop Part-2 10/29/20 - 6:30pm-7:30pm</h4>
+                <p class="eventsDes">
+                    We will be having another BFA workshop for last minute questions and feedback for students who are applying for the BFA portfolio review. The Deadline for BFA applications is 11:59PM on Monday, Nov. 2nd. Hop on Zoom if you need some help! The zoom link will be posted in the streaming links channel of our Discord: <a href="https://discord.com/invite/KhjeNMM" target="_blank">https://discord.com/invite/KhjeNMM</a>.
                 </p>
             </div>
-            <h2>FUTURE</h2>
+            <div class="calendar">
+                <iframe src="https://calendar.google.com/calendar/embed?height=750&amp;wkst=1&amp;bgcolor=%23616161&amp;ctz=America%2FLos_Angeles&amp;src=Y2FkcmVzdHVkZW50b3JnYW5pemF0aW9uQGdtYWlsLmNvbQ&amp;src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%23039BE5&amp;color=%230B8043&amp;showPrint=0&amp;showCalendars=1&amp;showTabs=1&amp;showDate=1" style="border:solid 1px #777" width="1000" height="750" frameborder="0" scrolling="no">Loading…</iframe>
+            </div>
+            <!-- <h2>FUTURE</h2>
             <div id="info">
                 <h4 id = "eventTitle">CADRE ZONE V2 10/30/20</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent libero ligula, laoreet eu lectus pretium, tristique finibus quam. Curabitur dui odio, pellentesque quis rutrum a, dictum at nulla. Pellentesque rhoncus est eu
@@ -65,10 +66,19 @@
                     hendrerit
                     et neque.
                 </p>
-            </div>
+            </div> -->
         </div>
         <footer>
-
+            <div id="end">
+                <p class="platforms">
+                    <!-- Be Sure to Check that all links work -->
+                    <a href="https://www.facebook.com/cadre.so" target="_blank"><img src="images/platforms/facebook.png" width="50"></a>
+                    <a href="https://www.instagram.com/cadre.so/" target="_blank"><img src="images/platforms/instagram.png" width="50"></a>
+                    <a href="" target="_blank"><img src="images/platforms/twitter.png" width="50"></a>
+                    <a href="" target="_blank"><img src="images/platforms/linkedin.png" width="50"></a>
+                    <a href="https://discord.com/invite/KhjeNMM" target="_blank"><img src="images/platforms/discord.png" width="160"></a>
+                </p>
+            </div>
         </footer>
 </body>
 
