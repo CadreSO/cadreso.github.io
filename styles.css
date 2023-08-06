@@ -1,0 +1,12 @@
+img{
+    width: 100%;
+}
+
+.border-bottom{
+    border-bottom: none!important;
+}
+
+.shadow-lg{
+    box-shadow: none!important;
+}
+
