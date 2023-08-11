@@ -6,7 +6,7 @@ p, h1, h2, h3, h4, h5, a, li, ul {
 
 body {
 	background: linear-gradient(-45deg, #f7e1db, #f5dbe5, #d2e8f0, #c9f1e8);
-	background-size: 400% 400%;
+	background-size: 500% 600%;
 	animation: gradient 30s ease infinite;
 	height: 100vh;
 }
@@ -82,4 +82,12 @@ a.navbar-brand:hover{
 
 .accordion{
     mix-blend-mode: multiply;
+}
+
+.card-img-top.d-block.img-fluid.rounded{
+    background-color: #fff0!important;
+}
+
+.col-sm-3.mt-5.card.border-0{
+    background-color: #fff0!important;
 }
