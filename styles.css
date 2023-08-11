@@ -1,12 +1,51 @@
-img{
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+p, h1, h2, h3, h4, h5, a, li, ul {
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+img {
     width: 100%;
 }
 
-.border-bottom{
-    border-bottom: none!important;
+iframe{
+    display: block;
+    margin: auto;
 }
 
-.shadow-lg{
-    box-shadow: none!important;
+.border-bottom {
+    border-bottom: none !important;
 }
 
+.shadow-lg {
+    box-shadow: none !important;
+}
+
+.navbar-width {
+    max-width: 1320px !important;
+    margin: auto !important;
+}
+
+.fakeimg {
+    height: 200px;
+    background: #9f98c51a;
+    text-align: center;
+}
+
+.btn-dark, 
+.btn-primary{
+    background-color: #7e67f6;
+    border: none;
+}
+
+.bg-primary{
+    background-color: #7e67f6!important;
+}
+
+#instagram, #facebook, #twitter{
+    fill: #7e67f6;
+}
+
+#slideshow{
+    margin: auto;
+}
