@@ -48,8 +48,9 @@ iframe{
 
 .fakeimg {
     height: 200px;
-    background: #bdb18f1a;
+    background: white;
     text-align: center;
+    mix-blend-mode: multiply;
 }
 
 .btn-dark, 
@@ -77,4 +78,8 @@ a.navbar-brand{
 a.navbar-brand:hover{
     opacity: 70%;
     transition: ease-in-out;
+}
+
+.accordion{
+    mix-blend-mode: multiply;
 }
