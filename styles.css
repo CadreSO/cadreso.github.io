@@ -4,6 +4,26 @@ p, h1, h2, h3, h4, h5, a, li, ul {
     font-family: 'Source Sans 3', sans-serif;
 }
 
+body {
+	background: linear-gradient(-45deg, #f7e1db, #f5dbe5, #d2e8f0, #c9f1e8);
+	background-size: 400% 400%;
+	animation: gradient 30s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
 img {
     width: 100%;
 }
