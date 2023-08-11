@@ -28,7 +28,7 @@ iframe{
 
 .fakeimg {
     height: 200px;
-    background: #9f98c51a;
+    background: #bdb18f1a;
     text-align: center;
 }
 
@@ -48,4 +48,13 @@ iframe{
 
 #slideshow{
     margin: auto;
+}
+
+a.navbar-brand{
+    transition: ease-in-out;
+}
+
+a.navbar-brand:hover{
+    opacity: 70%;
+    transition: ease-in-out;
 }
