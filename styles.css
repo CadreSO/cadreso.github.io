@@ -77,3 +77,8 @@ a.navbar-brand:hover{
 .col-sm-3.mt-5.card.border-0{
     background-color: #fff0!important;
 }
+
+.text-center{
+    max-width: 788px;
+    margin: auto;
+}
