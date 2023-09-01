@@ -45,6 +45,10 @@ iframe{
     border: none;
 }
 
+.btn:hover{
+    background-color: #129b77;
+}
+
 .bg-primary{
     background-color: #7e67f6!important;
 }
@@ -81,4 +85,8 @@ a.navbar-brand:hover{
 .text-center{
     max-width: 788px;
     margin: auto;
+}
+
+.bi:hover{
+    fill:#129b77!important;
 }
