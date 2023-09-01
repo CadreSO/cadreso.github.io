@@ -4,8 +4,6 @@
 
 h1{
     font-family: 'Paytone One', sans-serif;
-    padding-top: 10px;
-    padding-bottom: 10px;
 }
 
 p{
@@ -51,8 +49,8 @@ iframe{
     background-color: #7e67f6!important;
 }
 
-#instagram, #facebook, #linkedin{
-    fill: #7e67f6;
+#instagram, #linktree, #linkedin{
+    fill: #7e67f6!important;
 }
 
 #slideshow{
