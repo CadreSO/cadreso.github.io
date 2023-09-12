@@ -55,14 +55,17 @@ iframe{
 
 .bi{
     fill: #7e67f6;
+    transition: fill .15s ease-in-out;
 }
 
 #Layer_2{
     fill: #129b77;
+    transition: fill .15s ease-in-out;
 }
 
 #Layer_2:hover{
     fill: #7e67f6;
+    transition: fill .15s ease-in-out;
 }
 
 #slideshow{
@@ -96,4 +99,5 @@ a.navbar-brand:hover{
 
 .bi:hover{
     fill:#129b77!important;
+    transition: fill .15s ease-in-out;
 }
