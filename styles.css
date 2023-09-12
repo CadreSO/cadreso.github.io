@@ -57,6 +57,26 @@ iframe{
     fill: #7e67f6!important;
 }
 
+#instagram:hover {
+    fill: #129b77!important;
+}
+
+#linktree:hover{
+    fill: #129b77!important;
+}
+
+#linkedin:hover{
+    fill: #129b77!important;
+}
+
+#Layer_2{
+    fill: #129b77;
+}
+
+#Layer_2:hover{
+    fill: #7e67f6;
+}
+
 #slideshow{
     margin: auto;
 }
@@ -66,7 +86,6 @@ a.navbar-brand{
 }
 
 a.navbar-brand:hover{
-    opacity: 70%;
     transition: ease-in-out;
 }
 
@@ -87,6 +106,6 @@ a.navbar-brand:hover{
     margin: auto;
 }
 
-.bi:hover{
+svg.bi:hover{
     fill:#129b77!important;
 }
