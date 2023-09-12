@@ -53,20 +53,8 @@ iframe{
     background-color: #7e67f6!important;
 }
 
-#instagram, #linktree, #linkedin{
-    fill: #7e67f6!important;
-}
-
-#instagram:hover {
-    fill: #129b77!important;
-}
-
-#linktree:hover{
-    fill: #129b77!important;
-}
-
-#linkedin:hover{
-    fill: #129b77!important;
+.bi{
+    fill: #7e67f6;
 }
 
 #Layer_2{
@@ -106,6 +94,6 @@ a.navbar-brand:hover{
     margin: auto;
 }
 
-svg.bi:hover{
+.bi:hover{
     fill:#129b77!important;
 }
