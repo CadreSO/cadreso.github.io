@@ -101,3 +101,9 @@ a.navbar-brand:hover{
     fill:#129b77!important;
     transition: fill .15s ease-in-out;
 }
+
+.img-wrapper {
+  display:inline-block; 
+  width:100px; 
+  overflow:hidden; 
+}
